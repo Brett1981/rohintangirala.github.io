@@ -18,12 +18,22 @@
   font-family: 'Dosis', sans-serif;
 }
 
+
 #projects {
   font-family: 'Dosis', sans-serif;
 }
 
 #contact {
   font-family: 'Dosis', sans-serif;
+}
+
+#title {
+  font-size:100px;
+}
+
+#tagline {
+  font-size:60px;
+
 }
 
 h2 {
@@ -183,11 +193,14 @@ nav {
   z-index: 100;
   top: 0;
   right: 0;
+
   width: 250px;
   height: 350px;
   background-color: #888888;
   box-shadow: -3px 3px 5px #333333;
   font-family: 'Dosis', sans-serif;
+
+
 }
 
 #hint {
