@@ -13,9 +13,11 @@ $(function() {
   });
 });
 
+
 jQuery(document).ready(function () {
     var open = false;
     $('#navDiv').hide();
+
     //Open the menu
 
       jQuery("#hamburger").click(function () {
