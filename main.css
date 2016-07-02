@@ -6,9 +6,6 @@
   font-size:60px;
 }
 
-#welcome {
-  font-family: 'Assistant', sans-serif;
-}
 
 #about {
   font-family: 'Dosis', sans-serif;
@@ -34,6 +31,7 @@
 
 #tagline {
   font-size:60px;
+  font-family: 'Assistant', sans-serif;
 
 }
 
