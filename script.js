@@ -26,7 +26,7 @@ jQuery(document).ready(function () {
         $('#navDiv').slideDown();
         open = true;
         $('#hamburger').fadeOut(200, function() {
-          $('#hamburger').attr("src", "images/close.png");
+          $('#hamburger').attr("src", "images/arch.png");
           $('#hamburger').fadeIn(200);
         });
 
