@@ -72,17 +72,6 @@ body {
   text-align: center;
 }
 
-/*.light {
-  background-color:#99ccff;
-  color:black;
-}
-
-.dark {
-  background-color: #e6e6e6;
-  color:black;
-}*/
-
-
 #spacer {
   height: 60px;
   width: 100%;
@@ -115,11 +104,6 @@ body {
 }
 
 #welcome {
-  /*background-image:url("images/arch.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-
   height:100vh;
   color: black;
 }
@@ -257,15 +241,6 @@ nav {
   text-decoration: none;
 
 }
-
-/*.sideImages {
-  float: left;
-  padding-right: 30px;
-}*/
-
-
-
-
 
 #dayTripperPic {
   width: 300px;
