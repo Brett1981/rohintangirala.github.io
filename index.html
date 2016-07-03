@@ -22,61 +22,61 @@
         <link rel="stylesheet" href="hamburgler.css">
     </head>
     <body>
-      <!--<div class="container">-->
-          <div><img id="hamburger" src="images/menu.png"></div>
+        <div><img id="hamburger" src="images/menu.png"></div>
 
+        <div id="navDiv">
+          <ul>
+            <li><a class="navItems" href="#welcome">Welcome</a></li>
+            <li><a class="navItems" href="#about">About</a></li>
+            <li><a class="navItems" href="#skills">Skills</a></li>
+            <li><a class="navItems" href="#projects">Projects</a></li>
+            <li><a class="navItems" href="#contact">Contact</a></li>
+          </ul>
+        </div>
 
-
-          <div id="navDiv">
-            <br>
-            <br>
-            <ul>
-              <li><a class="navItems" href="#welcome">Welcome</a></li>
-              <li><a class="navItems" href="#about">About</a></li>
-              <li><a class="navItems" href="#skills">Skills</a></li>
-              <li><a class="navItems" href="#projects">Projects</a></li>
-              <li><a class="navItems" href="#contact">Contact</a></li>
-            </ul>
+        <section id="welcome">
+          <div id="spacer" class="bgImage">
           </div>
+          <div id="titleArea" class="bgImage">
+            <h1 id="title">Rohin Tangirala</h1>
+		        <p id="tagline">Hacker. Musician. Photographer.</p>
+          </div>
+          <a href="#about"><img id="hint" src="images/hint.png"></a>
+          <div id="spacer"></div>
+  	     </section>
 
-          <section id="welcome">
-            <div id="spacer" class="bgImage">
-            </div>
-              <div id="titleArea" class="bgImage">
-                <h1 id="title">Rohin Tangirala</h1>
-      		        <p id="tagline">Hacker. Web Developer. Musician.</p>
-              </div>
-              <a href="#about"><img id="hint" src="images/hint.png"></a>
-
-      	    </section>
-
-            <div id="contentArea">
-      	    <section id="about">
-
+        <div id="contentArea">
+      	   <section id="about">
       		    <h2>About</h2>
-      		    <p>Hey there! I am a high schooler with a passion for hacking and coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. Music is another passion of mine. Find out more below!</p>
-
+      		    <p>Hey there! I am a high schooler with a passion for hacking and coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. Music and photography are also passions of mine. Find out more below!</p>
             </section>
 
       	    <section id="skills">
-
       		    <h2>Skills</h2>
-      		    <h3>Web Development</h3>
-      			  <p>
-      				    I am comfortable with using HTML, CSS, Javascript, jQuery, and Bootstrap.
-      			  </p>
-      		    <h3>Building Chatbots</h3>
-      			  <p>
-      				    After building <a class="inTextLinks" href="#projects">Day Tripper</a>, I gained experience in building chatbots in Javascript using the Gupshup platform.
-      			  </p>
-      		    <h3>Java</h3>
-      			  <p>
-      				    I am comfortable with programming in Java and JavaFX.
-      			  </p>
-      		    <h3>iOS Development with Swift</h3>
-      			  <p>
-      				    Although I do not have as much experience, I have built a simple app using Xcode and Swift.
-      			  </p>
+              <div>
+                <h3>Web Development</h3>
+      			    <p>I am comfortable with using HTML, CSS, Javascript, jQuery, and Bootstrap.</p>
+              </div>
+              <div>
+                <h3>Building Chatbots</h3>
+      			    <p>After building <a class="inTextLinks" href="#projects">Day Tripper</a>, I gained experience in building chatbots in Javascript using the Gupshup platform.</p>
+              </div>
+              <div>
+                <h3>Java</h3>
+      			    <p>I am comfortable with programming in Java.</p>
+              </div>
+              <div>
+      		        <h3>iOS Development with Swift</h3>
+      			      <p>Although I do not have as much experience, I have built a simple app using Xcode and Swift.</p>
+              </div>
+              <div>
+                <h3>Music</h3>
+                <p>I have been playing piano for 8 years, and the clarinet for 4 years. I also recently picked up the bass clarinet. I enjoy playing solo, in ensembles, and in the Saint Francis High School Lancer Band.</p>
+              </div>
+              <div>
+                <h3>Photography</h3>
+                <p>Taking pictures has been a hobby since I was in third grade. Check out my <a class="inTextLinks" href="http://rohintphotography.wordpress.com">collection</a>!</p>
+              </div>
               <div id="spacer">
               </div>
       	    </section>
@@ -86,19 +86,25 @@
               <h2>Projects</h2>
 
 
-
+              <div>
               <h3>Day Tripper</h3>
-              <p>Day Tripper is a chatbot developed using the Gupshup platform. Its goal is to simplify the planning process for the user when going out for a short day trip. The user simply enters their destination address, and the bot provides transit time and weather information in a simple, conversational interface. I built this with a friend at BASEHacks 2016, where we won Best Implementation of the Gupshup Platform and were recognized as a Top Team by Wolfram Alpha.</p>
-              <a class = "link-btn" href="https://github.com/rohintangirala/DayTripper-Gupshup-Bot">GITHUB</a>
-              <a class = "link-btn" href="http://devpost.com/software/day-tripper-ocf705">DEVPOST</a>
-              <p>I am working on a web app version of Day Tripper as well, that provides a similar functionality, with more features to be added in the future. Check it out!</p>
-              <a class = "link-btn" href="https://github.com/rohintangirala/Day-Tripper-Web-App">GITHUB</a>
+
+                <p>Day Tripper is a chatbot developed using the Gupshup platform. Its goal is to simplify the planning process for the user when going out for a short day trip. The user simply enters their destination address, and the bot provides transit time and weather information in a simple, conversational interface. I built this with a friend at BASEHacks 2016, where we won Best Implementation of the Gupshup Platform and were recognized as a Top Team by Wolfram Alpha.</p>
+                <a class = "link-btn" href="https://github.com/rohintangirala/DayTripper-Gupshup-Bot">GITHUB</a>
+                <a class = "link-btn" href="http://devpost.com/software/day-tripper-ocf705">DEVPOST</a>
+                <p>I am working on a web app version of Day Tripper as well, that provides a similar functionality, with more features to be added in the future. Check it out!</p>
+                <a class = "link-btn" href="https://github.com/rohintangirala/Day-Tripper-Web-App">GITHUB</a>
+              </div>
+              <div>
               <h3>My Website (Yes, this one!)</h3>
               <p>This website is my first large web development project and is built from scratch. Stay tuned for updates.</p>
               <a class = "link-btn" href="https://github.com/rohintangirala/rohintangirala.github.io">GITHUB</a>
+             </div>
+             <div>
               <h3>Factor Facts</h3>
               <p>Factor Facts is a simple iOS math app with various functions, such as GCF, LCM, Pythagorean solver, and more.</p>
               <a class = "link-btn" href="https://github.com/rohintangirala/Factor-Facts">GITHUB</a>
+            </div>
               <div id="spacer">
               </div>
             </section>
@@ -120,5 +126,6 @@
              </section>
              <div class="scrollme">
             </div>
+
     </body>
 </html>

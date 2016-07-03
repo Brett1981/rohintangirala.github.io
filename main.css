@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-size: 16px;
 }
 
 #about {
@@ -24,31 +25,31 @@ body {
 }
 
 #title {
-  font-size:80px;
+  font-size:400%;
   font-family: 'Open Sans', 'Open Sans', sans-serif;
   font-weight: 100;
   color: black;
 }
 
 #tagline {
-  font-size:50px;
+  font-size:300%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   color: #009999;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 300%;
   font-family: 'Open Sans', sans-serif;
 
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 250%;
 }
 
 p {
-  font-size: 25px;
+  font-size: 150%;
 }
 
 a {
@@ -245,4 +246,11 @@ nav {
 #dayTripperPic {
   width: 300px;
   height: 300px;
+}
+
+.sideImages {
+  float: left;
+  height: 120px;
+  width: 120px;
+  padding-right: 30px;
 }
