@@ -134,7 +134,8 @@ section {
 }
 
 .inTextLinks {
-  color: blue;
+  color: #009999;
+
   -webkit-transition-property: color;
      -moz-transition-property: color;
        -o-transition-property: color;
@@ -153,11 +154,12 @@ section {
 
 .inTextLinks:visited
 {
-  color:blue;
+  color: #009999;
+
 }
 
 .inTextLinks:hover {
-  color: black;
+  color: #00cccc;
 }
 
 .contactIcon {
@@ -199,7 +201,7 @@ nav {
   right: 0;
   width: 250px;
   height: 375px;
-  background-color: black;
+  background-color: #009999;
   box-shadow: -1px 1px 3px #333333;
   font-family: 'Open Sans', sans-serif;
 
@@ -229,10 +231,10 @@ nav {
   padding-left: 10px;
   margin-right: 5px;
   background-color: transparent;
-  -webkit-transition-property: background-color, color;
-     -moz-transition-property: background-color, color;
-       -o-transition-property: background-color, color;
-          transition-property: background-color, color;
+  -webkit-transition-property: background-color, color, border-color;
+     -moz-transition-property: background-color, color, border-color;
+       -o-transition-property: background-color, color, border-color;
+          transition-property: background-color, color, border-color;
   -webkit-transition-duration: 0.25s;
      -moz-transition-duration: 0.25s;
        -o-transition-duration: 0.25s;
@@ -245,7 +247,8 @@ nav {
 }
 
 .link-btn:hover {
-  background-color: black;
+  background-color: #009999;
+  border-color: #009999;
   color: white;
 
 }
