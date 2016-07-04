@@ -26,15 +26,16 @@ body {
 
 #title {
   font-size:400%;
-  font-family: 'Open Sans', 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   color: black;
 }
 
 #tagline {
   font-size:300%;
+  font-weight: 700;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+
   color: #009999;
 }
 
@@ -107,6 +108,10 @@ body {
 #welcome {
   height:100vh;
   color: black;
+  background-image:url("images/lake.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bgImage {
