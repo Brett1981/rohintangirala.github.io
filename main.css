@@ -27,26 +27,32 @@ body {
 #title {
   font-size:400%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 #tagline {
   font-size:300%;
-  font-weight: 700;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 
   color: #009999;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-size: 300%;
   font-family: 'Open Sans', sans-serif;
-
+  font-weight: 400;
 }
 
 h3 {
   font-size: 250%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 p {
@@ -70,7 +76,6 @@ body {
 }
 
 #titleArea {
-
   text-align: center;
 }
 
@@ -113,10 +118,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*
 .bgImage {
   background-color: transparent;
-}
+}*/
 
 section {
   padding-left: 50px;
