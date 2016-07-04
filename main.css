@@ -6,22 +6,34 @@ body {
 #about {
   font-family: 'Open Sans', sans-serif;
   color: black;
+  z-index: 100;
+  position: relative;
+  background-color: white;
 }
 
 #skills {
   font-family: 'Open Sans', sans-serif;
   color: black;
+  z-index: 100;
+  position: relative;
+  background-color: white;
 }
 
 
 #projects {
   font-family: 'Open Sans', sans-serif;
   color: black;
+  z-index: 100;
+  position: relative;
+  background-color: white;
 }
 
 #contact {
   font-family: 'Open Sans', sans-serif;
   color: black;
+  z-index: 100;
+  position: relative;
+  background-color: white;
 }
 
 #title {
@@ -31,16 +43,19 @@ body {
   color: black;
   margin: 0;
   padding: 0;
+  z-index: 100;
+  position: relative;
 }
 
 #tagline {
   font-size:300%;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-
+  z-index: 100;
   color: #009999;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 h2 {
@@ -77,13 +92,14 @@ body {
 
 #titleArea {
   text-align: center;
+  padding-top:30px;
 }
-
+/*
 #spacer {
   height: 60px;
   width: 100%;
-
-}
+  //background-color: white;
+}*/
 
 .navItems {
   color:#e6e6e6;
@@ -113,19 +129,27 @@ body {
 #welcome {
   height:100vh;
   color: black;
+  background-color: transparent;
+  z-index: 100;
+  position: static;
+}
+
+#bgImage {
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
   background-image:url("images/lake.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
 }
-/*
-.bgImage {
-  background-color: transparent;
-}*/
 
 section {
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .inTextLinks {
@@ -193,7 +217,7 @@ img {
     right: 20px;
     width: 40px;
     height: 40px;
-    z-index: 101;
+    z-index: 102;
     -webkit-transition-property: filter;
        -moz-transition-property: filter;
          -o-transition-property: filter;
@@ -214,26 +238,18 @@ img {
 }
 
 
-nav {
-    left: 0px;
-    top: 0px;
-    position: fixed;
-    z-index: 0;
-    width: 70%;
-
-}
 
 #navDiv {
   position: fixed;
-  z-index: 100;
+  z-index: 101;
   top: 0;
   right: 0;
   width: 250px;
-  height: 375px;
+  height: 325px;
   background-color: #009999;
   box-shadow: -1px 1px 3px #333333;
   font-family: 'Open Sans', sans-serif;
-
+  padding-top: 50px;
 
 }
 
@@ -297,4 +313,8 @@ nav {
   height: 120px;
   width: 120px;
   padding-right: 30px;
+}
+
+#contentArea {
+  background-color: white;
 }
