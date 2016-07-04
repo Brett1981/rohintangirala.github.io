@@ -318,3 +318,10 @@ img {
 #contentArea {
   background-color: white;
 }
+
+#footer {
+  background-color: white;
+  z-index: 100;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
