@@ -1,7 +1,7 @@
 window.onload = function() {
   var title = document.getElementById("title");
   var tagline = document.getElementById("tagline");
-  TweenLite.from(title, 0.75, {opacity: 0, right: "300%"});
+  TweenLite.from(title, 0.75, {delay:.05, opacity: 0, right: "300%"});
   TweenLite.from(tagline, 0.75, {delay:.75, opacity: 0, right: "300%"});
 }
 
