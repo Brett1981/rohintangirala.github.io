@@ -1,3 +1,10 @@
+window.onload = function() {
+  var title = document.getElementById("title");
+  var tagline = document.getElementById("tagline");
+  TweenLite.from(title, 0.75, {opacity: 0, right: "300%"});
+  TweenLite.from(tagline, 0.75, {delay:.75, opacity: 0, right: "300%"});
+}
+
 $(function() {
   $('a[href*="#"]').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -24,6 +31,7 @@ jQuery(document).ready(function () {
         if (open==false)
         {
         $('#navDiv').slideDown();
+        //TweenLite.from("#navDiv", 0.75, {opacity: 0, left: "100px"});
         open = true;
         $('#hamburger').fadeOut(200, function() {
           $('#hamburger').attr("src", "images/close.png");

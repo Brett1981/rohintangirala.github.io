@@ -253,6 +253,7 @@ img {
   box-shadow: -1px 1px 3px #333333;
   font-family: 'Open Sans', sans-serif;
   padding-top: 50px;
+  padding-left: 0px;
   text-align: left;
 
 }
