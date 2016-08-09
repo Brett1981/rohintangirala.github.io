@@ -3,7 +3,7 @@ window.onload = function() {
   var tagline = document.getElementById("tagline");
   TweenLite.from(title, 0.75, {delay:.05, opacity: 0, right: "300%"});
   TweenLite.from(tagline, 0.75, {delay:.75, opacity: 0, right: "300%"});
-  TweenLite.from(hint, 1, {delay:1.25, opacity: 0, bottom:"100%"});
+  TweenLite.from(hint, 1, {delay:1.25, opacity: 0, bottom:"30%"});
 
 }
 
