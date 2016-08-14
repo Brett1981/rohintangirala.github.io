@@ -14,5 +14,5 @@ $(function() {
 });
 
 $(window).load(function() {
-  window.sr = ScrollReveal().reveal('.scroll-item');
+  window.sr = ScrollReveal({origin: 'left', distance: '100%'}).reveal('.scroll-item');
 });
