@@ -12,3 +12,7 @@ $(function() {
     }
   });
 });
+
+$(window).load(function() {
+  window.sr = ScrollReveal().reveal('.scroll-item');
+});
