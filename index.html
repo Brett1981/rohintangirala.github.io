@@ -1,279 +1,107 @@
-<!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Rohin Tangirala</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="icon" href="images/favicon.ico">
-	</head>
-	<body class="index">
-		<div id="page-wrapper">
+  <head>
+    <title>Rohin Tangirala</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:200,300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+  </head>
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Rohin Tangirala</a></h1>
-					<nav id="nav">
-						<ul>
-							<!--<li class="current"><a href="index.html">Welcome</a></li>-->
-							<li class="submenu">
-								<a href="#">Menu</a>
-								<ul>
-									<li><a href="#banner">Home</a></li>
-									<li><a href="#main">About</a></li>
-									<li><a href="#skills">Skills</a></li>
-									<li><a href="#projects">Projects</a></li>
-									<li><a href="#cta">Awards</a></li>
-									<li><a href="#footer">Contact</a></li>
-								</ul>
-							</li>
-							<li><a href="#footer" class="button special">Contact</a></li>
-						</ul>
-					</nav>
-				</header>
+  <body>
+    <section id="welcome" class="centered-text">
+      <h1>Rohin Tangirala</h1>
+      <h3>A developer guided by creativity, innovation, and impact.</h3>
+      <br>
+      <a href = "#about" class="light-btn">Find out more</a>
+    </section>
 
-			<!-- Banner -->
-				<section id="banner">
+    <section id="about" class="centered-body content-area content-section">
+      <h2 class="dark-text-bright">ABOUT</h2>
+      <p class="dark-text-mellow">Hey there! I am Rohin Tangirala, a sophomore at Saint Francis High School, with a passion for hacking and coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. Music and photography are also passions of mine. Find out more below!</p>
+    </section>
 
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
+    <div id="skills-container">
+      <section id="skills" class="content-area content-section">
+        <h2 class="centered-body light-text">SKILLS</h2>
+        <p class="light-text"><strong>Languages</strong> that I am familiar with:</p>
+        <ul class="light-text">
+          <li>HTML/CSS - Proficient</li>
+          <li>Java - Proficient</li>
+          <li>Javascript - Intermediate</li>
+          <li>iOS Development with Swift - Intermediate</li>
+        </ul>
+        <tr>
+          <td><i class="fa fa-apple fa-2x light-icon centered-icon"></i></td>
+          <td><i class="fa fa-code fa-2x light-icon centered-icon"></i></td>
+          <td><i class="fa fa-laptop fa-2x light-icon centered-icon"></i></td>
+          <td><i class="fa fa-coffee fa-2x light-icon centered-icon"></i></td>
+        </tr>
+        <br>
+        <p class="light-text"><strong>Frameworks</strong> and <strong>platforms</strong> that I have experience with:</p>
+        <ul class="light-text">
+          <li>Greensock GSAP</li>
+          <li>Gupshup</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+        </ul>
+      </section>
+    </div>
 
-						<header>
-							<h2>Rohin Tangirala</h2>
-						</header>
-						<p>A developer guided by creativity, innovation, and impact.</p>
-						<footer>
-							<ul class="buttons vertical">
-								<li><a href="#main" class="button fit scrolly">Tell me more</a></li>
-							</ul>
-						</footer>
+    <div id="projects-container">
+      <section id="projects" class="content-area content-section">
+        <h2 class="centered-body dark-text-bright">PROJECTS</h2>
+        <div class="projectEntry">
+          <img src="images/driving.jpg" class="portfolio-image">
+          <h3>Day Tripper</h3>
+          <p>Created with a friend at BASEHacks 2016, Day Tripper is a chatbot that simplifies planning for a short day trip, providing transit time and weather. The project won a <a href="#awards">couple of awards at BASEHacks</a>.</p>
+          <p>Check it out on <a href = "https://github.com/rohintangirala/DayTripper-Gupshup-Bot">Github</a> and <a href = "http://devpost.com/software/day-tripper-ocf705">Devpost</a></p>
 
-					</div>
+        </div>
 
-				</section>
+        <div class="projectEntry">
+          <img src="images/FactorFactsWide.png" class="portfolio-image">
+          <h3>Factor Facts</h3>
+          <p>A simple iOS math app with various functions, such as GCF, LCM, Pythagorean solver, and more.</p>
+          <p>Check it out on <a href = "https://github.com/rohintangirala/Factor-Facts">Github</a><p>
+        </div>
 
-			<!-- Main -->
-				<article id="main">
+        <div class="projectEntry">
+          <img src="images/laptop.jpg" class="portfolio-image">
+          <h3>My Personal Website</h3>
+          <p>This website is my first large web development project and is built from scratch. Stay tuned for updates.</p>
+          <p>Check it out on <a href="https://github.com/rohintangirala/rohintangirala.github.io">Github</a></p>
+        </div>
 
-					<header class="special container"  id="about">
-						<span class="icon fa-user"></span>
-						<h2><strong>About</strong></h2>
-						<p>Hey there! I am Rohin Tangirala, a sophomore at Saint Francis High School, with a passion for hacking and coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. Music and photography are also passions of mine. Find out more below!</p>
-					</header>
+        <div class="projectEntry">
+          <img src="images/HeadsUpLogo.png" class="portfolio-image">
+          <h3>HeadsUp</h3>
+          <p>A simple, conversational web app that provides transit time and weather at a destination for a short trip. Inspired by Day Tripper.</p>
+          <p>Try it out <a href="http://rohintangirala.me/HeadsUp">here</a><p>
+          <p>Check it out on <a href = "http://github.com/rohintangirala/HeadsUp">Github</a></p>
+        </div>
+      </section>
+    </div>
 
-					<!-- One -->
-						<section class="wrapper style2 container special-alt" id="skills">
-							<div class="row 50%">
-								<div class="8u 12u(narrower)">
+    <div id="awards-container">
+      <section id="awards" class="centered-body content-area content-section">
+        <h2 class="light-text">AWARDS</h2>
+        <p class="light-text"><a href = "http://basehacks.org/">BASEHacks 2016</a> - Best Implementation of the Gupshup Platform and Recognized as Top Team by Wolfram Alpha</p>
+      </section>
+    </div>
 
-									<header>
-										<h2><strong>Skills</strong></h2>
-									</header>
-									<p><strong>Languages</strong> I am familiar with:</p>
-									<ul>
-										<li>HTML/CSS - Proficient</li>
-										<li>Java - Proficient</li>
-										<li>Javascript - Intermediate</li>
-										<li>iOS Development with Swift - Intermediate</li>
-									</ul>
-									<p><strong>Frameworks</strong> and <strong>platforms</strong> I have experience with:</p>
-									<ul>
-										<li>Greensock GSAP</li>
-										<li>Gupshup</li>
-										<li>Bootstrap</li>
-										<li>jQuery</li>
-									</ul>
-									<!--<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
-										</ul>
-									</footer>-->
+    <section id="contact" class="content-area content-section">
+      <h2 class="dark-text-bright centered-body">GET IN TOUCH</h2>
+      <div class="contact-div"><a href="mailto:rohinkt@gmail.com" class="contact-icon"><i class="fa fa-envelope fa-2x"></i></a></div>
+      <div class="contact-div"><a href="http://www.github.com/rohintangirala" class="contact-icon"><i class="fa fa-github fa-2x"></i></a></div>
+      <div class="contact-div"><a href="http://devpost.com/rohinkt" class="contact-icon"><i class="fa fa-codepen fa-2x"></i></a></div>
+      <div class="contact-div"><a href="https://www.linkedin.com/in/rohin-tangirala-b48630117" class="contact-icon"><i class="fa fa-linkedin fa-2x"></i></a></div>
+    </section>
 
-								</div>
-								<div class="4u 12u(narrower) important(narrower)">
-
-									<ul class="featured-icons">
-										<li><span class="icon fa-apple"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon fa-globe"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon fa-code-fork"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon fa-coffee"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon fa-comments"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon fa-code"><span class="label">Feature 6</span></span></li>
-									</ul>
-
-								</div>
-							</div>
-						</section>
-
-					<!-- Two -->
-						<!--<section class="wrapper style1 container special">
-							<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>This is Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Also Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-check"></span>
-										<header>
-											<h3>Probably Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-									</section>
-
-								</div>
-							</div>
-						</section>-->
-
-					<!-- Three -->
-						<section class="wrapper style3 container special" id="projects">
-
-							<header class="major">
-								<h2><strong>Projects</strong></h2>
-							</header>
-
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="https://github.com/rohintangirala/DayTripper-Gupshup-Bot" class="image featured"><img src="images/driving.jpg" alt="" /></a>
-										<header>
-											<h3>Day Tripper</h3>
-										</header>
-										<p>Created with a friend at BASEHacks 2016, Day Tripper is a chatbot that simplifies planning for a short day trip, providing transit time and weather. The project won a <a href="#cta">couple of awards at BASEHacks</a>.</p>
-										<p>Check it out on <a href = "https://github.com/rohintangirala/DayTripper-Gupshup-Bot">Github</a> and <a href = "http://devpost.com/software/day-tripper-ocf705">Devpost</a></p>
-									</section>
-
-								</div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="https://github.com/rohintangirala/Factor-Facts" class="image featured"><img src="images/FactorFactsWide.png" alt="" /></a>
-										<header>
-											<h3>Factor Facts</h3>
-										</header>
-										<p>A simple iOS math app with various functions, such as GCF, LCM, Pythagorean solver, and more.</p>
-										<p>Check it out on <a href = "https://github.com/rohintangirala/Factor-Facts">Github</a><p>
-									</section>
-
-								</div>
-							</div>
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="http://rohintangirala.me/HeadsUp" class="image featured"><img src="images/HeadsUpLogo.png" alt="" /></a>
-										<header>
-											<h3>HeadsUp</h3>
-										</header>
-										<p>A simple, conversational web app that provides transit time and weather at a destination for a short trip. Inspired by Day Tripper.</p>
-										<p>Try it out <a href="http://rohintangirala.me/HeadsUp">here</a><p>
-										<p>Check it out on <a href = "http://github.com/rohintangirala/HeadsUp">Github</a></p>
-
-									</section>
-
-								</div>
-								<!--<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>And Another Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>-->
-							</div>
-
-							<footer class="major">
-								<ul class="buttons">
-									<li><a href="https://github.com/rohintangirala" class="button">See more</a></li>
-								</ul>
-							</footer>
-
-						</section>
-
-				</article>
-
-			<!-- CTA -->
-				<section id="cta">
-
-					<header>
-						<h2><strong>Awards</strong></h2>
-						<p><a href = "http://basehacks.org/">BASEHacks 2016</a> - Best Implementation of the Gupshup Platform and Recognized as Top Team by Wolfram Alpha</p>
-					</header>
-					<!--<footer>
-						<ul class="buttons">
-							<li><a href="#" class="button special">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
-						</ul>
-					</footer>-->
-
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-
-					<ul class="icons">
-						<li><a href="https://plus.google.com/114299388866384906982" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-						<li><a href="https://github.com/rohintangirala" class="icon circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="http://devpost.com/rohinkt" class="icon circle fa-code"><span class="label">Devpost</span></a></li>
-						<li><a href="https://www.linkedin.com/in/rohin-tangirala-b48630117" class="icon circle fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="mailto:rohinkt@gmail.com" class="icon circle fa-envelope"><span class="label">Email</span></a></li>
-
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Rohin Tangirala</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer class="content-section content-area">
+      <p>&copy; Rohin Tangirala. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
