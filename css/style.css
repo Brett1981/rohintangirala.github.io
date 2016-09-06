@@ -9,3 +9,13 @@
 .skills-description {
   margin-left: 2.75em;
 }
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  z-index: 99;
+}
+
+.spacer {
+  height: 5em;
+}
