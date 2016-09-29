@@ -1,0 +1,20 @@
+.portfolio-images {
+  width: 100%;
+}
+
+.panel-body h3 {
+  color: teal;
+}
+
+.skills-description {
+  margin-left: 2.75em;
+}
+
+.navbar {
+
+  z-index: 99;
+}
+
+.spacer {
+  height: 5em;
+}
