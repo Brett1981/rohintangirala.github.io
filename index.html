@@ -1,135 +1,121 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Rohin Tangirala</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rohin T</title>
 
-        <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-        <script src="https://use.fontawesome.com/4eb80b5a4b.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="script.js" type='text/javascript'></script>
-    </head>
-    <body>
+    <!-- Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
 
+    <!-- Material Design fonts -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
 
-        <div id="about" class="content-section general-text">
-            <h1 id="title">ROHIN TANGIRALA</h1>
-            <h3 id="subtitle">I'm a coder and musician.</h3>
-            <center><img id="self-pic" width="200px" src="images/rohin filter.jpg"></center>
-            <p class="content-paragraph">Hey there! I am Rohin Tangirala, a sophomore at Saint Francis High School, with a passion for coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. I am also passionate about music performance and production. Find out more below!</p>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+
+    <script src="https://use.fontawesome.com/2097c5dd36.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" style="border-radius: 0px">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Rohin Tangirala</a>
         </div>
 
-        <br>
-        <div id="skills" class="content-section general-text">
-            <h1>LANGUAGES & SKILLS</h1>
-
-            <h3>Languages</h3>
-
-            <p>Java (proficient)</p>
-            <p>HTML/CSS (proficient)</p>
-            <p>Javascript (experienced)</p>
-            <p>Swift (experienced)</p>
-
-            <h3>Skills</h3>
-
-            <p>App Development - iOS dev on Xcode with Swift</p>
-            <p>Web Development - experience with jQuery, Bootstrap, other libraries</p>
-
-        </div>
-
-        <br>
-        <div id="projects" class="content-section general-text">
-            <h1>PROJECTS</h1>
-            <div class="projectEntry">
-
-                <img src="images/daytripper.png">
-
-                <h3>DAY TRIPPER</h3>
-
-                <p>Created at BASEHacks 2016, Day Tripper is a chatbot that simplifies planning for a short day trip, providing transit time and weather. My team was awarded Best Implementation of the Gupshup Platform and was recognized as a Top Team by Wolfram Alpha.</p>
-
-                <a class = "link-btn" href="https://github.com/rohintangirala/DayTripper-Gupshup-Bot">GITHUB</a>
-                <a class = "link-btn" href="http://devpost.com/software/day-tripper-ocf705">DEVPOST</a>
-
-            </div>
-            <div class="projectEntry">
-                <img src="images/pong.png">
-                <h3>REDIS PONG</h3>
-
-                <p>Created at EVHacks II, Redis Pong is a variation of the traditional video game Pong. Players on two iOS devices can control paddles in a game of Pong coded in Java. A Redis server was used for communication between the controller iOS app and the Java game.</p>
-
-                <a class = "link-btn" href="https://github.com/rohintangirala/Redis-Pong">GITHUB</a>
-                <a class = "link-btn" href="https://devpost.com/software/redis-pong">DEVPOST</a>
-
-            </div>
-            <div class="projectEntry">
-                <img src="images/twenty.png">
-                <h3>TWENTY</h3>
-
-                <p>Submitted to the 2016 Congressional App Challenge, Twenty is an iOS app that assists heavy computer screen users in managing screen usage time. The app features alarms to take timed breaks, and also logs usage time.</p>
-
-                <a class = "link-btn" href="https://github.com/rohintangirala/Twenty">GITHUB</a>
-                <a class = "link-btn" href="https://www.youtube.com/watch?v=gmHEduFLuA8">VIDEO</a>
-
-            </div>
-            <div class="projectEntry">
-                <img src="images/ops.png">
-                <h3>OPTIMIZED PLACE SEARCH</h3>
-
-                <p>Created at CodeDay Bay Area, Optimized Place Search is a web app that takes a user's current location and desired destination, such as a store or restaurant, then informs the user whether the user will arrive during business hours. I was awarded Best Application at CodeDay Bay Area for the project.</p>
-
-                <a class = "link-btn" href="https://github.com/rohintangirala/Optimized-Place-Search">GITHUB</a>
-
-
-            </div>
-        </div>
-
-
-        <div id="awards" class="content-section general-text">
-            <h1>AWARDS & RECOGNITION</h1>
-            <p><strong>Best Implementation of the Gupshup Platform</strong> and recognized as <strong>Top Team</strong> by Wolfram Alpha at BASEHacks 2016 for Day Tripper</p>
-            <p><strong>Best Application</strong> at CodeDay Bay Area February 2017 for Optimized Place Search</p>
-        </div>
-
-        <br>
-        <div id="where" class="content-section general-text">
-            <h1>WHERE I'VE BEEN</h1>
-            <p>BASEHacks 2016</p>
-            <p>EVHacks II (MLH Local Hack Day III)</p>
-            <p>CodeDay Bay Area February 2017</p>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="skills.html">Skills & Awards</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="spacer">
+    </div>
+    <div class="container">
+        
+        <div class="jumbotron">
+          <h1>Rohin Tangirala</h1>
+          <hr>
+          <p>A developer guided by <strong>creativity</strong>, <strong>innovation</strong>, and <strong>impact</strong>.</p>
         </div>
         
-        <br>
-        <div id="music" class="content-section general-text">
-            <h1>MUSIC</h1>
-            <p>I enjoy both playing and making music. I have been playing the piano since I was 6 years old, and the clarinet since I was 11 years old. I also picked up the bass clarinet last year. I have performed with the San Jose Youth Symphony Concert Orchestra, and I am currently a member of the Saint Francis High School Lancer Marching Band and Symphonic Band. Recently, I have started to produce my own electronic music. Check it out <a href="https://soundcloud.com/user-607642489" class="color-link">here</a>.</p>
-        </div>
-
-
-        <br>
-        <div id="contact" class="content-section general-text">
-            <h1>DROP A LINE</h1>
-            <p>Feel free to contact me in any of the ways below with any questions, comments, or ideas.</p>
-            <div id="contact-nav">
-                <div class="contact-div"><a href="mailto:rohinkt@gmail.com" class="contact-icon color-link"><i class="fa fa-envelope fa-2x"></i></a></div>
-                <div class="contact-div"><a href="http://www.github.com/rohintangirala" class="contact-icon color-link"><i class="fa fa-github fa-2x"></i></a></div>
-                <div class="contact-div"><a href="http://devpost.com/rohinkt" class="contact-icon color-link"><i class="fa fa-codepen fa-2x"></i></a></div>
-                <div class="contact-div"><a href="https://www.linkedin.com/in/rohin-tangirala-b48630117" class="contact-icon color-link"><i class="fa fa-linkedin fa-2x"></i></a></div>
-                <div class="contact-div"><a href="https://soundcloud.com/user-607642489" class="contact-icon color-link"><i class="fa fa-soundcloud fa-2x"></i></a></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+          
+                  <div class="panel-body">
+                    <h3>I'm a developer and computer science enthusiast from the Silicon Valley.</h3>
+                    <hr>
+                    <p>Hey there! I am Rohin Tangirala, a sophomore at Saint Francis High School, with a passion for coding. Whether I am at a hackathon or working on a project on my own time, I love solving problems and making products that help people. I am also passionate about music performance and production.</p>
+                 
+                  </div>
+                </div>
             </div>
+            
         </div>
-        <br>
-        <br>
-        <div id="back-to-top" class="content-section general-text">
-            <p><a href="#about" class="color-link">&#8593; Back to Top</a></p>
+        
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <a href="http://github.com/rohintangirala" type="button" class="btn btn-primary fa fa-2x fa-github"></a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="http://linkedin.com/in/rohintangirala" type="button" class="btn btn-primary fa fa-2x fa-linkedin"></a>
+            </div>
+            <div class="btn-group" role="group">
+                <a href="http://devpost.com/rohinkt" type="button" class="btn btn-primary fa fa-2x fa-codepen"></a>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-primary dropdown-toggle fa fa-2x fa-envelope" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                &ensp;
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="mailto:rohinkt@gmail.com">rohinkt@gmail.com</a></li>
+                <li><a href="mailto:rohintangirala@sfhs.com">rohintangirala@sfhs.com</a></li>
+            </ul>
+            </div>
+            
+            <div class="btn-group" role="group">
+                <a href="https://soundcloud.com/user-607642489" type="button" class="btn btn-primary fa fa-2x fa-soundcloud"></a>
+            </div>
+            
+            
         </div>
+        
+    </div>
 
-        <br>
-        <br>
-        <p class="general-text">&copy; Rohin Tangirala. All rights reserved.</p>
-
-    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
